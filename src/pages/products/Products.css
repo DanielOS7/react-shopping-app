@@ -1,0 +1,37 @@
+.products-container {
+    flex: 3;
+    margin-top: 20px;
+}
+
+.products-container h2 {
+    font-family: cursive;
+    margin-left: 17px;
+}
+
+.product-title {
+    margin-left: 17px;
+}
+
+.products-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.products-item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 250px;
+    margin: 10px 20px 20px 20px;
+}
+
+.products-item p {
+    margin: 2px 0px 2px 0px;
+}
+
+
+.product-image {
+    border-radius: 5px;
+    height: 200px;
+}
