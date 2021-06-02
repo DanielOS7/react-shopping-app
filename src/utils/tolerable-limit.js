@@ -25,7 +25,7 @@ export const hasTolerableLimit = (basket, product, tolerableUpperLimits) => {
 /**
  * Returns an array of objects with vitamin and amount key value pairs
  * 
- * @param {Array.<Object>} localBasket - Array with the current basket and new product to be added
+ * @param {Array.<Object>} localBasket - Array of objects that has the current basket and new product to be added
  */
 const nutrients = (localBasket) => {
     let nutrients = [];
