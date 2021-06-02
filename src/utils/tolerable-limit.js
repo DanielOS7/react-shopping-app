@@ -3,7 +3,7 @@
  * 
  * @param {Array.<Object>} basket - Products in current basket
  * @param {Object} product - Product to be added
- * @param {tolerableUpperLimits} product - List of tolerable upper limits
+ * @param {Array.<Object>} tolerableUpperLimits - List of tolerable upper limits
  */
 export const hasTolerableLimit = (basket, product, tolerableUpperLimits) => {
     let localBasket = [...basket];
